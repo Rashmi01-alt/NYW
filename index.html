@@ -51,7 +51,7 @@
                 transform: translateY(0);
             }
         } */
-        
+
         /* .arrow-container {
             position: absolute;
             margin-top: rem;
@@ -71,9 +71,9 @@
         }
          .card:hover .arrow-container {
             animation: none; /* Disable bounceArrow animation on hover */
-         /* Adjust the arrow position on hover */
-        
-            /* @keyframes bounceArrow {
+        /* Adjust the arrow position on hover */
+
+        /* @keyframes bounceArrow {
             0%, 20%, 50%, 80%, 100% {
                 transform: translateY(-50%) translateX(0);
             }
@@ -120,26 +120,30 @@
         .footer:hover {
             background-color: burlywood;
         }
-        .image{
-    /* filter:grayscale(10); */
-    transition: all 1s ease;
-    animation: scaleImage 5s linear infinite;
-}
-@keyframes scaleImage {
-    0%{
-        filter: grayscale(0);
-        transform: scale(1);
-    }
-    50%{
-        filter: grayscale(0.9);
-        transform: scale(1.1);
-        box-shadow: 3px 3px 10px black;
-    }
-    100%{
-        filter: grayscale(0);
-        transform: scale(1);
-    }
-}
+
+        .image {
+            /* filter:grayscale(10); */
+            transition: all 1s ease;
+            animation: scaleImage 5s linear infinite;
+        }
+
+        @keyframes scaleImage {
+            0% {
+                filter: grayscale(0);
+                transform: scale(1);
+            }
+
+            50% {
+                filter: grayscale(0.9);
+                transform: scale(1.1);
+                box-shadow: 3px 3px 10px black;
+            }
+
+            100% {
+                filter: grayscale(0);
+                transform: scale(1);
+            }
+        }
     </style>
 </head>
 
@@ -149,7 +153,7 @@
         <div class="arrow"></div>
     </div>
     <div class="card image">
-       
+
         <div class="card-header">
             <h1>Happy New Year!</h1>
         </div>
